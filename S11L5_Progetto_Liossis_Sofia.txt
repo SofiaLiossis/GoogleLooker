@@ -1,0 +1,25 @@
+https://docs.google.com/spreadsheets/d/17X5-I6Vtt9FmA8kHkEOYVFpoo2FOHKnN1FdOkmjbRTM/edit?usp=sharing
+
+https://lookerstudio.google.com/reporting/5b0404ba-6a74-455e-b795-7bff7941c5c2
+
+(Le ultime colonne di inizio\fine le ho dovute riformattare perchè Looker non riusciva a leggere il formato come le avevo segnate in precendenza. Prima perchè non era presente l'orario con la data e poi perchè ha di default il formato m/d/y e non d/m/y. Ho provato a formattarlo direttamente da Looker con PARSE_DATETIME ma senza buoni risultati).
+
+
+DATA MEDITATION - LIOSSIS SOFIA 
+
+Questa analisi si basa sulla raccolta dei dati delle sigarette fumate da me dal 06/12/2023 al 03/03/2024 suddivise in base a: 
+GIORNO,ORA DI INIZIO,ORA DI FINE, QUANTITA', LUOGO (Casa,Fuori), IN COMPAGNIA, TIPOLOGIA (Tabacco,Sigaretta e Svapo) e se FUMATA INTERAMENTE. Ho inoltre aggiunto un campo, DURATA, calcolato della differenza tra ora di inizio e di fine.  
+
+Nella dashboard si può vedere innanzitutto, l'andamento della quantità di sigarette fumate ( comprendendo tutte e 3 le tipologie) nel tempo attraverso un grafico temporale, accanto il totale delle sigarette in tutti i mesi,il totale dei giorni che vengono presi in analisi e il totale dei minuti "persi" a fumare. 
+Sulla destra si possono selezionare i vari filtri come la selezione di un intervallo di date, se si vuole vedere quante sono state fumate in compagnia,interamente o meno. 
+Nella parte centrale sono presenti un grafico a torta e uno ad anello per visualizzare quale tipologia è stata fumata maggiormente e il luogo.
+Successivamente è presente un istogramma che ci permette di capire il numero di sigarette fumate per fascia oraria.
+Infine, attraverso una tabella con mappa termica, possiamo ottenere informazioni riguardo i giorni con più sigarette fumate. 
+
+Dalla mappa termica si evidenzia che i giorni in cui sono state fumate più sigarette sono i festivi (dove si è più rilassati e senza altri impegni).
+Si può anche notare dall'istogramma la mia routine giornaliera che prevede un uso maggiore durante la fascia centrale della giornata(8-18).
+Nell'andamento globale notiamo subito un periodo costante a causa di alcuni dati inseriti successivamente.
+Grazie a questa analisi, che mi fa riflettere su quanto tempo perdo e alla quantà stessa delle sigarette, sto provando a smettere,cercando intanto di cambiare con la svapo! Dal 13/02/2024 ho iniziato a fumare la "svapo" ed ha provocato una riduzione nel consumo di sigarette. Nonostante ciò è stata più una sostituzione che una riduzione,infatti l'andamento globale è rimasto costante (quindi ancora mi devo impegnare).
+
+
+
